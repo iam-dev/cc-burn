@@ -1,0 +1,15 @@
+{
+  "name": "cc-burn",
+  "version": "1.0.0",
+  "description": "Token usage tracking and limit prediction for Claude Code",
+  "author": "",
+  "homepage": "https://github.com/yourname/cc-burn",
+  "commands": [
+    "commands/burn.md"
+  ],
+  "hooks": {
+    "PostToolUse": [
+      "hooks/post-tool.sh"
+    ]
+  }
+}
